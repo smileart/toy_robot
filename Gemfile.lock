@@ -1,0 +1,57 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    ansi (1.5.0)
+    awesome_print (1.7.0)
+    builder (3.2.3)
+    byebug (9.0.6)
+    colorize (0.8.1)
+    concurrent-ruby (1.0.4)
+    docile (1.1.5)
+    i18n (0.8.0)
+    json (2.0.3)
+    letters (0.4.1)
+      activesupport
+      awesome_print
+      colorize
+      xml-simple
+    m (1.5.0)
+      method_source (>= 0.6.7)
+      rake (>= 0.9.2.2)
+    method_source (0.8.2)
+    minitest (5.10.1)
+    minitest-reporters (1.1.14)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (12.0.0)
+    ruby-progressbar (1.8.1)
+    simplecov (0.13.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xml-simple (1.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  letters
+  m (~> 1.5)
+  minitest (~> 5.0)
+  minitest-reporters (~> 1.1)
+  simplecov (~> 0.12)
+
+BUNDLED WITH
+   1.13.7
